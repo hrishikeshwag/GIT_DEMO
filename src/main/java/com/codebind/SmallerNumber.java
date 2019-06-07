@@ -7,4 +7,3 @@ public class SmallerNumber
 		return num1 < num2;
 	}
 }
-//added lines
