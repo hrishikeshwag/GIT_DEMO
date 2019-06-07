@@ -10,7 +10,7 @@ public class JunitSmallernumberTC {
 	public void test() {
 		System.out.println("In test");
 		SmallerNumber g = new SmallerNumber();
-		assertTrue("Number 1 is smaller than 2", g.isSmaller(2,3));
+		assertTrue("Number 1 is smaller than 2", g.isSmaller(5,3));
 	}
 
 }
