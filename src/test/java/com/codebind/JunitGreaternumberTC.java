@@ -9,7 +9,7 @@ public class JunitGreaternumberTC {
 	@Test
 	public void test() {
 		GreaterNumber g = new GreaterNumber();
-		assertTrue("Number 1 is greater than 2", g.isGreater(7, 4));
+		assertTrue("Number 1 is greater than 2", g.isGreater(3, 4));
 	}
 
 }
